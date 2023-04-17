@@ -1,0 +1,22 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:661aaee1-e4f6-44b4-b31f-20a117816c41",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-04-17T09:27:43+02:00",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.77.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "65ebb61fda50141b",
+      "type": "file",
+      "name": "juice-shop/"
+    }
+  },
+  "components": []
+}

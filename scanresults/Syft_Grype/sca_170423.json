@@ -1,0 +1,24 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:4ede5743-6fd3-4b58-a577-c20340d4b957",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-04-17T09:27:33+02:00",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "grype",
+        "version": "0.61.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "65ebb61fda50141b",
+      "type": "file",
+      "name": "juice-shop/"
+    }
+  },
+  "components": [],
+  "vulnerabilities": []
+}

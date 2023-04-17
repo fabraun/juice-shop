@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:bf96970a-97f1-4d49-b042-b8ec3ddcd7a1",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-04-17T07:43:01+00:00",
+    "tools": [
+      {
+        "vendor": "aquasecurity",
+        "name": "trivy",
+        "version": "0.39.1"
+      }
+    ],
+    "component": {
+      "bom-ref": "c7711aa7-6ac6-43c4-bbf4-1f228aef586c",
+      "type": "application",
+      "name": "juice-shop",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "c7711aa7-6ac6-43c4-bbf4-1f228aef586c",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}
